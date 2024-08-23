@@ -1,163 +1,162 @@
-body{
-    margin: 0 auto;
-    padding: 0px;
-    width: 100%;
-    font-family: sans-serif, 'roboto';
+body {
+  margin: 0 auto;
+  padding: 0px;
+  width: 100%;
+  font-family: sans-serif, "roboto";
 }
 
 /* Start styling the header/nav section */
 
-.sec_1{
-    max-width: 100%;
-    /* align-items: center; */
-    border-bottom: solid 6px #6daa7d;
-    padding: 20px 40px;
+.sec_1 {
+  max-width: 100%;
+  /* align-items: center; */
+  border-bottom: solid 6px #6daa7d;
+  padding: 20px 40px;
 }
 
-.sec_1 .header_section{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+.sec_1 .header_section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .sec_1 .header_section .logo {
-    width: 30%;
+  width: 30%;
 }
 
 .sec_1 .header_section .logo img {
-    width: 70%;
+  width: 70%;
 }
 
 .sec_1 .header_section .nav_menu {
-    width: 70%;
-    margin: auto;
+  width: 70%;
+  margin: auto;
 }
 
-.nav_menu ul{
-    display: flex;
-    justify-content: space-between;
+.nav_menu ul {
+  display: flex;
+  justify-content: space-between;
 }
 
-.nav_menu ul li{
-    list-style: none;  
-    font-size: 20px;
-    color: #000;
+.nav_menu ul li {
+  list-style: none;
+  font-size: 20px;
+  color: #000;
 }
-.nav_menu ul li a{
-    color: #000;
-    text-decoration: none;
+.nav_menu ul li a {
+  color: #000;
+  text-decoration: none;
 }
 
-.nav_menu ul li a:hover{
-    color: #6daa7d;
+.nav_menu ul li a:hover {
+  color: #6daa7d;
 }
 
 .nav_menu ul li a.active,
 .nav_menu ul li a:active,
-.nav_menu ul li a:focus{
-    color: #6daa7d;
+.nav_menu ul li a:focus {
+  color: #6daa7d;
 }
 
-
-
-.nav_bold{
-    font-weight: bold;
+.nav_bold {
+  font-weight: bold;
 }
-
 
 /* Start styling the Hero section */
 
-.sec_2{
-    height: 50vh;
-    background-image: url('../images/trail_1w.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0 0;
-    text-align: center;
-    padding: 15% 0px;
-    color: #fff;
+.sec_2 {
+  height: 50vh;
+  background-image: url("../images/trail_1w.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  text-align: center;
+  padding: 15% 0px;
+  color: #fff;
 }
 
-.sec_2 .hero_header, .about_sec_2 .hero_header, .dep_sec_2 .hero_header{
-    font-size: 55px;
+.sec_2 .hero_header,
+.about_sec_2 .hero_header,
+.dep_sec_2 .hero_header {
+  font-size: 55px;
 }
 
-.sec_2 .para_1, .about_sec p{
-    font-size: 20px;
+.sec_2 .para_1,
+.about_sec p {
+  font-size: 20px;
 }
 
-.about_sec{
-    max-width: 100%;
-    padding: 80px;
-    display: flex;
-    justify-content: space-around;
+.about_sec {
+  max-width: 100%;
+  padding: 80px;
+  display: flex;
+  justify-content: space-around;
 }
 
-.about_sec div{
-    width: 50%;
+.about_sec div {
+  width: 50%;
 }
 
-.about_sec .about_text{
-    padding: auto;
+.about_sec .about_text {
+  padding: auto;
 }
 
-.about_sec .about_img img{
-    width: 100%;
-    height: 80%;
+.about_sec .about_img img {
+  width: 100%;
+  height: 80%;
 }
 
-.about_sec .btn{
-    padding: 8px 14px;
-    font-size: 20px;
-    color: white;
-    background-color: #6daa7d;
-    border: solid 2px #6daa7d;
-    border-radius: 15px;
+.about_sec .btn {
+  padding: 8px 14px;
+  font-size: 20px;
+  color: white;
+  background-color: #6daa7d;
+  border: solid 2px #6daa7d;
+  border-radius: 15px;
 }
 
-.about_sec .btn:hover{
-    transition-duration: 0.55s;
-    transition-delay: 0.22ms;
-    color: black;
-    background-color: transparent;
-    border: solid 2px #6daa7d;
-    
+.about_sec .btn:hover {
+  transition-duration: 0.55s;
+  transition-delay: 0.22ms;
+  color: black;
+  background-color: transparent;
+  border: solid 2px #6daa7d;
 }
 
 /* Start styling the Footer Section */
 
-footer{
-    margin: 0px;
-    padding: 40px;
-    color: #fff;
-    background-color: #4f4e55;
-    display: flex;
-    justify-content: space-evenly;
+footer {
+  margin: 0px;
+  padding: 40px;
+  color: #fff;
+  background-color: #4f4e55;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-footer .nav_menu ul li{
-    list-style: none;  
-    font-size: 18px;
+footer .nav_menu ul li {
+  list-style: none;
+  font-size: 18px;
 }
 
-footer .nav_menu ul li a{
-    color: #fff;
+footer .nav_menu ul li a {
+  color: #fff;
 }
 
-footer .nav_menu ul{
-    display: block;
-    justify-content: space-between;
+footer .nav_menu ul {
+  display: block;
+  justify-content: space-between;
 }
 
-footer .nav_menu ul li{
-    padding-bottom: 5px;
+footer .nav_menu ul li {
+  padding-bottom: 5px;
 }
 
-footer .social-info a{
-    color: white;
-    text-decoration: none;
-    /* padding-bottom: ; */
+footer .social-info a {
+  color: white;
+  text-decoration: none;
+  /* padding-bottom: ; */
 }
 
 footer 
@@ -165,90 +164,87 @@ footer
 
 /* About Page */
 
-.about div{
-     width: 100%;
-     text-align: center;
+.about div {
+  width: 100%;
+  text-align: center;
 }
 
-.about_sec_2{
-    height: 50vh;
-    background-image: url('../images/Berlin_Background.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0 0;
-    background-color: #1c1c1d;
-    text-align: center;
-    padding: 18% 0px;
-    color: #fff;
+.about_sec_2 {
+  height: 50vh;
+  background-image: url("../images/Berlin_Background.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  background-color: #1c1c1d;
+  text-align: center;
+  padding: 18% 0px;
+  color: #fff;
 }
-
 
 /* Departments style */
 
-.dep_sec_2{
-    height: 50vh;
-    background-image: url('../images/Nick\ on\ trail.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0 0;
-    text-align: center;
-    padding: 15% 0px;
-    color: #fff;
+.dep_sec_2 {
+  height: 50vh;
+  background-image: url("../images/Nick\ on\ trail.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  text-align: center;
+  padding: 15% 0px;
+  color: #fff;
 }
 
-.departments_list{
-    padding: 80px 0px;
-    text-align: left !important;
+.departments_list {
+  padding: 80px 0px;
+  text-align: left !important;
 }
-.departments_list h2{
-    text-align: center;
-    font-size: 40px;
-    color: #6daa7d;
-
-}
-
-.departments_list ol li{
-    padding-top: 5px;
-    font-size: 20px;
-    color: #6daa7d;
+.departments_list h2 {
+  text-align: center;
+  font-size: 40px;
+  color: #6daa7d;
 }
 
-.ll_link a{
-    color: #fff;
+.departments_list ol li {
+  padding-top: 5px;
+  font-size: 20px;
+  color: #6daa7d;
 }
 
-.contact{
-    text-align: left !important;
+.ll_link a {
+  color: #fff;
 }
 
-.mission div, .services div{
-
-    padding: 0px 50px;
+.contact {
+  text-align: left !important;
 }
 
+.mission div,
+.services div {
+  padding: 0px 50px;
+}
 
 /* Services page Styling */
 
-.service_sec_2 .hero_header{
-    font-size: 55px;
-    color: #fff;
+.service_sec_2 .hero_header {
+  font-size: 55px;
+  color: #fff;
 }
-.service_sec_2{
-    height: 50vh;
-    background-image: url('../images/Manyata exterior shade.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0 0;
-    text-align: center;
-    padding: 15% 0px;
-    color: #fff;
+.service_sec_2 {
+  height: 50vh;
+  background-image: url("../images/Manyata exterior shade.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  text-align: center;
+  padding: 15% 0px;
+  color: #fff;
 }
-.service div{
-    width: 100%;
-    padding: 0px 10%;
-    text-align: center;
-
+.service {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
 }
