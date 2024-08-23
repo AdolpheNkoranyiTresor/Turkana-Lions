@@ -66,7 +66,7 @@ body{
 
 .sec_2{
     height: 50vh;
-    background-image: url('/images/trail_1w.jpg');
+    background-image: url('../images/trail_1w.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,10 +78,6 @@ body{
 
 .sec_2 .hero_header, .about_sec_2 .hero_header, .dep_sec_2 .hero_header{
     font-size: 55px;
-}
-
-.sec_2 .hero_header .para_1{
-    
 }
 
 .sec_2 .para_1, .about_sec p{
@@ -173,7 +169,7 @@ footer
 
 .about_sec_2{
     height: 50vh;
-    background-image: url('/images/Berlin_Background.jpg');
+    background-image: url('../images/Berlin_Background.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -189,7 +185,7 @@ footer
 
 .dep_sec_2{
     height: 50vh;
-    background-image: url('/images/Nick\ on\ trail.jpg');
+    background-image: url('../images/Nick\ on\ trail.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -238,7 +234,7 @@ footer
 }
 .service_sec_2{
     height: 50vh;
-    background-image: url('/images/Manyata exterior shade.jpg');
+    background-image: url('../images/Manyata exterior shade.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
