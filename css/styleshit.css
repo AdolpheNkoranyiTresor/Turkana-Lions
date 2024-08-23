@@ -30,6 +30,7 @@ body{
 
 .sec_1 .header_section .nav_menu {
     width: 70%;
+    margin: auto;
 }
 
 .nav_menu ul{
@@ -51,7 +52,9 @@ body{
     color: #6daa7d;
 }
 
-.nav_menu ul li a:active{
+.nav_menu ul li a.active,
+.nav_menu ul li a:active,
+.nav_menu ul li a:focus{
     color: #6daa7d;
 }
 
