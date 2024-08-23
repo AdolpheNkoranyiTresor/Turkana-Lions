@@ -226,6 +226,23 @@ footer
 }
 
 
+/* Services page Styling */
+
+.service_sec_2 .hero_header{
+    font-size: 55px;
+    color: #fff;
+}
+.service_sec_2{
+    height: 50vh;
+    background-image: url('/images/Manyata exterior shade.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    text-align: center;
+    padding: 15% 0px;
+    color: #fff;
+}
 .service div{
     width: 100%;
     padding: 0px 10%;
